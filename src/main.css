@@ -1,0 +1,219 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 114px;
+}
+
+html {
+    font-family: Montserrat;
+}
+
+h1 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 114px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 72px;
+}
+
+
+
+.banner {
+    height: 652px;
+    width: 100%;
+    display: flex;
+}
+
+.banner .left-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 42px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.banner .wrapper-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+}
+
+
+.banner .wrapper-text p:first-child {
+    color: #F78CB6;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+}
+.banner .wrapper-text p:last-child {
+    color: #919299;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.banner .title-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 31px;
+}
+.banner .title-text h1 {
+    color: #56597A
+} 
+
+
+
+
+.banner .right-box img {
+    width: 532px;
+    height: 532px;
+    object-fit: cover;
+}
+
+
+.main-button {
+    background: #F78BB6;
+    border-radius: 4px;
+    outline: none;
+    padding: 18px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 19px;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+.main-button button{
+   outline: none;
+   border: none;
+   background: none;
+   color: #fff;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 500;
+}
+
+.main-button:hover svg {
+    fill: red
+}
+
+.services {
+    width: 100%;
+}
+
+.services .services-parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 6px;
+}
+
+.services .services-cards {
+    margin-top: 52px;
+}
+
+.services-text {
+    color: #F78CB6;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.services-title {
+    color: #56597A;
+    font-size: 52px;
+    line-height: 72px;
+    font-weight: 700;
+}
+
+.services .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 30px;
+}
+.services .cards .card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #FFF1F9;
+    padding: 23px;
+    cursor: pointer;
+    height: 307px;
+    transition: all 0.25s ease-in;
+}
+
+.services .cards .card:hover {
+    background-color: #F78CB6;
+    height: 344px;
+    transition: all 0.25s ease-in;
+}
+
+.services .cards .card .card-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .cards .card .card-texts h3 {
+    color: #56597A;
+    font-size: 34px;
+    line-height: 72px;
+}
+
+.services .cards .card:hover .card-texts h3 {
+    color: #fff;
+}
+.services .cards .card .card-texts p {
+    color: #919299;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.services .cards .card:hover .card-texts p {
+    color: #fff;
+}
+.services .cards .card .icon {
+    margin-top: 30px;
+}
+
+.services .cards .card:hover .icon svg {
+    fill: #fff;
+}
