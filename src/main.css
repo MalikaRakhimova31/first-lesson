@@ -192,6 +192,10 @@ p {
     justify-content: center;
 }
 
+.color {
+    background-color: red;
+}
+
 .services .cards .card .card-texts h3 {
     color: #56597A;
     font-size: 34px;
